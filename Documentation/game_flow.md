@@ -26,8 +26,8 @@ The **Voltage Threshold Indicator System** follows a simple operational flow whe
 5. **Output Indication**
    Based on the comparator output:
 
-   * **Green LED turns ON** when the voltage is below the threshold (normal condition).
-   * **Red LED turns ON** when the voltage exceeds the threshold (warning condition).
+   * **Red LED turns ON** when the voltage is below the threshold (normal condition).
+   * **Green LED turns ON** when the voltage exceeds the threshold (warning condition).
 
 6. **Continuous Operation**
    The system continuously monitors the voltage and updates the LED indication whenever the voltage crosses the threshold level.
