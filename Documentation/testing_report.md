@@ -5,26 +5,40 @@ The objective of testing was to verify that the circuit correctly detects when t
 # Testing Setup
 
 The following equipment and components were used during testing:
+
 Power supply (adjustable DC supply or battery)
+
 Multimeter for measuring voltage
+
 Voltage Threshold Indicator PCB
+
 Potentiometer for adjusting reference voltage
+
 Red and Green LEDs for indication
+
 The circuit was powered and the reference voltage was adjusted using the potentiometer. The input voltage was gradually varied to observe the output response.
 
 # Testing Procedure
 
 The circuit was connected to the DC power supply.
+
 The potentiometer was adjusted to set the desired reference (threshold) voltage.
+
 The input voltage was slowly increased from a lower value.
+
 The LED indicators were observed to determine the switching point.
+
 Voltage values were measured using a multimeter to confirm the threshold level.
 
 # Test Cases and Observations
 Test Case	Input Voltage Condition	Expected Result	Observed Result	Status
+
 Test 1	Input voltage < Threshold	Green LED ON	Green LED ON	Pass
+
 Test 2	Input voltage = Threshold	Switching point	LED changes state	Pass
+
 Test 3	Input voltage > Threshold	Red LED ON	Red LED ON	Pass
+
 Test 4	Adjust threshold using potentiometer	Switching point changes	Threshold changes correctly	Pass
 
 # Results
