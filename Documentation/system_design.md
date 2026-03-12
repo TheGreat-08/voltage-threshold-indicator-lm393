@@ -73,21 +73,14 @@ The **LM393 comparator** compares two voltages:
 * **Non-inverting input (+)** → Reference voltage
 * **Inverting input (−)** → Input voltage
 
-Operation:
-
-* If `Vin > Vref` → Comparator output switches state
-* If `Vin < Vref` → Comparator output remains in the opposite state
-
-The output of the LM393 controls the LED indicators.
-
 ---
 
 ### 5. Output Indicator
 
 Two LEDs are used to indicate the voltage condition:
 
-* **Green LED** → Voltage within safe or below threshold level
-* **Red LED** → Voltage exceeds the preset threshold
+* **Red LED** → Voltage within safe or below threshold level
+* **Green LED** → Voltage exceeds the preset threshold
 
 Resistors are connected in series with LEDs to limit current and protect them from damage.
 
@@ -113,3 +106,4 @@ Resistors are connected in series with LEDs to limit current and protect them fr
 ## Summary
 
 The system design provides a simple and effective method to monitor voltage levels using a comparator-based circuit. The architecture allows easy adjustment of the voltage threshold and provides clear visual feedback through LEDs, making it suitable for practical electronic monitoring applications.
+![System Design](https://github.com/user-attachments/assets/e7aac639-3678-4512-ac4b-d1cd85ea0b16)
