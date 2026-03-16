@@ -1,0 +1,50 @@
+Datasheet
+
+Component: LM393 Comparator IC
+
+The LM393 is a dual differential comparator designed to compare two input voltages and provide a digital output. It operates over a wide supply voltage range and is commonly used in voltage detection, monitoring circuits, and signal comparison applications.
+
+Important Specifications
+
+Supply Voltage Range: 2 V – 36 V
+
+Input Offset Voltage: Typically 2 mV
+
+Low Power Consumption
+
+Open Collector Output
+
+Dual Comparator in a single IC package
+
+Operating Temperature Range: 0°C to 70°C (standard version)
+
+Applications
+
+Voltage threshold detection
+
+Battery level indicator circuits
+
+Signal comparison circuits
+
+Power supply monitoring systems
+
+Sensor signal conditioning
+
+Official Datasheet Source
+
+Texas Instruments LM393 Datasheet
+https://www.ti.com/lit/ds/symlink/lm393.pdf
+
+References
+
+Texas Instruments – LM393 Comparator Datasheet
+https://www.ti.com/lit/ds/symlink/lm393.pdf
+
+Electronics Tutorials – Comparator Circuits
+https://www.electronics-tutorials.ws/opamp/op-amp-comparator.html
+
+Analog Devices – Comparator Basics
+https://www.analog.com/en/analog-dialogue/articles/comparator-basics.html
+
+KiCad Documentation – Schematic and PCB Design Guide
+https://docs.kicad.org
